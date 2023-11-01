@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/brown-roasted-coffee-beans.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+main{
+    width: 300px;
+    background-color: burlywood;
+    margin-inline:auto ;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+header{
+    text-align: center;
+}
+hr{
+    height: 3px;
+    background-color: red;
+}
+h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .lemon{
+    width: 50px;
+    height: 50px;
+} 
+.product-name{
+    display: inline;
+}
+.product-price{
+    display: inline;
+}
+.items{
+display: flex;
+justify-content: space-between;
+padding-left:10px ;
+padding-right:10px ;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.coffe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
